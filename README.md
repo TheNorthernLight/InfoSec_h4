@@ -97,15 +97,17 @@ Lets get the zip file that we need to unlock:
 
     $ wget https://TeroKarvinen.com/2023/crack-file-password-with-john/tero.zip
  
-* Getting the Hash: 
+* Cheking file: 
 
-![Get Hash](5.JPG)
+![Check File](5.JPG)
  
+* Getting the Hash:
+
+![Getting Hash](6.JPG) 
+
 * Attacking:
 
-![checking](6.JPG) 
- 
-![comparing](7.JPG)
+![Attacking](7.JPG)
 
 * Unlocking
 
