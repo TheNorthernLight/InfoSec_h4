@@ -1,6 +1,4 @@
 # InfoSec_h4
-## Hash
-
 ## Applied Cryptography
 ### 2.3 One-Way Functions
  
