@@ -31,8 +31,30 @@
  
 ### a) Install Hashcat
  
+I installed Hashcat on my virtual machine by following the "Cracking Passwords with Hashcat" tutorial found on terokarvinen.com. Before proceeding with any actions on Linux, it is important to make sure your packages are up to date. This can be done using the following commands:
  
- 
+     $ sudo apt-get update && sudo apt-get upgrade -y
+     
+Now we are ready to start installing Hashcat. 
+
+     $ sudo apt-get install hashid hashcat wget -y
+     
+Next, for convenience it is better to create a directory that will contain the hashes that we want to solve.
+
+     $ mkdir unraveled 
+     
+     $ cd hashed
+     
+To begin the process of cracking hashes, it is required a comprehensive password dictionary. A widely used resource for this is the "rockyou.txt" file, which can be obtained from Github. To download the file, we can use the command to clone the Github repository into the directory that we have created.
+
+     $ wget https://github.com/danielmiessler/SecLists/raw/master/Passwords/Leaked-Databases/rockyou.txt.tar.gz
+     
+Then unpackage it: 
+
+     $ tar xf rockyou.txt.tar.gz
+     
+#Now we are ready!
+
  
 ### b) Crack this hash: 8eb8e307a6d649bc7fb51443a06a216f
  
