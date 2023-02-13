@@ -63,12 +63,28 @@ Then unpackage it:
  
 ### c) Compile John the Ripper, Jumbo version.
  
+I installed Jumbo on my virtual machine by following the "Crack File Password With John" tutorial on terokarvinen.com.
+
+    sudo apt-get install micro bash-completion git build-essential libssl-dev zlib1g zlib1g-dev zlib-gst libbz2-1.0 libbz2-dev atool zip wget -y
+    
+Next, lets get the Jumbo version of John the Ripper and compile it.
+
+    $ git clone --depth=1 https://github.com/openwall/john.git
+    
+Then 
+
+    $ cd john/src/	
+    $ ./configure
  
- 
+Then the actual compilation
+
+    $ make -s clean && make -sj4
  
 ### d) Crack a zip file password
- 
- 
+
+Lets get the zip file that we need to unlock: 
+
+    $ wget https://TeroKarvinen.com/2023/crack-file-password-with-john/tero.zip
  
  
 ### n) Voluntary: create a password protected file other than ZIP. Crack the password. How many formats can you handle?
