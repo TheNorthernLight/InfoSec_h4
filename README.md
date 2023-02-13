@@ -57,12 +57,15 @@ Then unpackage it:
 
  
 ### b) Crack this hash: 8eb8e307a6d649bc7fb51443a06a216f
- Cracking: 
- ![cracking](2.JPG)
- Result:
- ![checking](3.JPG)
- Comparing:
- ![comparing](4.JPG)
+Cracking: 
+![cracking](2.JPG)
+ 
+Result:
+![checking](3.JPG) 
+ 
+Comparing:
+ 
+![comparing](4.JPG)
  
  
 ### c) Compile John the Ripper, Jumbo version.
