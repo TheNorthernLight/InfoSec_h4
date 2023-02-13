@@ -67,7 +67,7 @@ I installed Jumbo on my virtual machine by following the "Crack File Password Wi
 
     sudo apt-get install micro bash-completion git build-essential libssl-dev zlib1g zlib1g-dev zlib-gst libbz2-1.0 libbz2-dev atool zip wget -y
     
-    ![Oackages Purpose](1.JPG)
+![Packages Purpose](1.JPG)
     
 Next, lets get the Jumbo version of John the Ripper and compile it.
 
