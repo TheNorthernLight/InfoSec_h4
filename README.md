@@ -57,13 +57,15 @@ Then unpackage it:
 
  
 ### b) Crack this hash: 8eb8e307a6d649bc7fb51443a06a216f
-Cracking: 
+* Cracking:
+ 
 ![cracking](2.JPG)
  
-Result:
+* Result:
+
 ![checking](3.JPG) 
  
-Comparing:
+* Comparing:
  
 ![comparing](4.JPG)
  
