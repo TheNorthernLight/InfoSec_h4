@@ -97,7 +97,25 @@ Lets get the zip file that we need to unlock:
 
     $ wget https://TeroKarvinen.com/2023/crack-file-password-with-john/tero.zip
  
+* Getting the Hash: 
+
+![Get Hash](5.JPG)
  
+* Attacking:
+
+![checking](6.JPG) 
+ 
+![comparing](7.JPG)
+
+* Unlocking
+
+![cracking](8.JPG)
+ 
+* Result:
+
+![checking](9.JPG) 
+ 
+
 ### n) Voluntary: create a password protected file other than ZIP. Crack the password. How many formats can you handle?
  
  
